@@ -1,0 +1,3 @@
+def is_pangram(sentence):
+    return len(set(c.lower() for c in sentence if c.isalpha())) == 26
+print(is_pangram("The quick brown fox jumps over the lazy dog"))  
